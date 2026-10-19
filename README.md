@@ -22,7 +22,7 @@ A responsive, soft-toned, animated portfolio made with Next.js, TypeScript and F
 - **Project descriptions:** `app/page.tsx` → `projects` array.
 - **Career timeline:** `app/page.tsx` → `experience` array.
 - **Technology stack:** `app/page.tsx` → `techs` array.
-- **Email / social URLs:** `app/page.tsx` → `Contact` component. LinkedIn and GitHub currently use general service homepage placeholders; replace with exact profile URLs before publishing.
+- **Social profile URLs:** `data/site.ts` → `socialProfiles` configuration.
 - **Colors, sizing, animation presentation:** `app/globals.css`.
 
 ## Note

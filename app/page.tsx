@@ -28,6 +28,7 @@ import SkillsOrbit from "../components/SkillsOrbit";
 import BeyondCard from "../components/BeyondCard";
 import { beyondPreview } from "../data/beyond";
 import { projects, type Project } from "../data/projects";
+import { socialProfiles } from "../data/site";
 
 const PlanetScene = dynamic(() => import("../components/PlanetScene"), {
   ssr: false,
@@ -631,10 +632,7 @@ function Contact() {
             For opportunities, collaborations or conversations about software
             engineering and AI.
           </p>
-          <a
-            className="button button-dark"
-            href="mailto:ozblgn.irem@gmail.com"
-          >
+          <a className="button button-dark" href="mailto:ozblgn.irem@gmail.com">
             Say hello <ArrowUpRight size={17} />
           </a>
         </div>
@@ -643,11 +641,19 @@ function Contact() {
             <Mail size={20} />
             Email <ArrowUpRight size={17} />
           </a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+          <a
+            href={socialProfiles.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Linkedin size={20} />
             LinkedIn <ArrowUpRight size={17} />
           </a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <a
+            href={socialProfiles.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Github size={20} />
             GitHub <ArrowUpRight size={17} />
           </a>
