@@ -162,7 +162,7 @@ function Header() {
           </a>
         ))}
       </nav>
-      <a className="header-action" href="mailto:iremozbilgin@gmail.com">
+      <a className="header-action" href="mailto:ozblgn.irem@gmail.com">
         Let’s Talk <ArrowUpRight size={15} />
       </a>
       <button
@@ -633,13 +633,13 @@ function Contact() {
           </p>
           <a
             className="button button-dark"
-            href="mailto:iremozbilgin@gmail.com"
+            href="mailto:ozblgn.irem@gmail.com"
           >
             Say hello <ArrowUpRight size={17} />
           </a>
         </div>
         <div className="contact-links">
-          <a href="mailto:iremozbilgin@gmail.com">
+          <a href="mailto:ozblgn.irem@gmail.com">
             <Mail size={20} />
             Email <ArrowUpRight size={17} />
           </a>
